@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "340679876991",
+    "project_id": "tastelover-7dfad",
+    "storage_bucket": "tastelover-7dfad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340679876991:android:c9fb0cf45bdc7e66a97a4a",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340679876991-tb3g431pchlf4fo57kla6l2trsek7kq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7J5ZltI_Pc4vPNzTR4naMk0yi85HvOAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340679876991-tb3g431pchlf4fo57kla6l2trsek7kq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
