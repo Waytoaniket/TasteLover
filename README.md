@@ -19,7 +19,7 @@ This is a food ordering & delivery application built with a flutter framework an
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/Google-Developer-Student-Club-RAIT/food_delivery_app_Flutter.git
+https://github.com/Waytoaniket/TasteLover.git
 ```
 
 **Step 2:**
@@ -55,24 +55,24 @@ flutter packages pub run build_runner watch
 
 
 
-**1.**  Fork [this](https://github.com/Google-Developer-Student-Club-RAIT/food_delivery_app_Flutter) repository.
+**1.**  Fork [this](https://github.com/Waytoaniket/TasteLover.git) repository.
 
 **2.**  Clone your forked copy of the project.
 
 ```
-git clone https://github.com/<your_name>/food_delivery_app_Flutter.git 
+git clone https://github.com/<your_name>/TasteLover.git 
 ```
 
 **3.** Navigate to the project directory :file_folder: .
 
 ```
-cd food_delivery_app_Flutter
+cd TasteLover
 ```
 
 **4.** Add a reference(remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/Google-Developer-Student-Club-RAIT/food_delivery_app_Flutter
+git remote add upstream https://github.com/Waytoaniket/TasteLover.git
 ```
 
 **5.** Check the remotes for this repository.
@@ -163,10 +163,5 @@ git push -u origin <your_branch_name>
 
 ### Contact
 
-Maintainer : harsh.kulkarni.42774@gmail.com
-Maintainer : jadhavAkshay0701@gmail.com
+Maintainer : waytoaniketgupta@gmail.com
 
-## LICENSE
-Copyright (c) **GDSC Rait**. All rights reserved. Licensed under the MIT License
-
-[![](https://img.shields.io/github/license/junaidrahim/desiresalesportal?style=for-the-badge)](LICENSE)
