@@ -18,8 +18,7 @@ class FoodDetailPage extends StatefulWidget {
 class _FoodDetailPageState extends State<FoodDetailPage> {
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
 
-  String sampleDescription =
-      "";
+  String sampleDescription = "";
 
   List<Food> foodList = [];
 
@@ -245,13 +244,11 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
           SizedBox(
             height: MediaQuery.of(context).size.width * 0.15,
             width: MediaQuery.of(context).size.width * 0.9,
-            child: TextButton(
-              style: TextButton.styleFrom(
-                primary: Colors.orange,
-                padding: EdgeInsets.symmetric(horizontal: 16.0),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10)),
-              ),
+            child: FlatButton(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
+              color: Colors.orange,
+              padding: EdgeInsets.symmetric(horizontal: 16.0),
               onPressed: () => addToCart(widget.fooddata.keys),
               child: Text(
                 "Add To Cart",

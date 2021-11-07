@@ -116,13 +116,11 @@ class _CartPageState extends State<CartPage> {
             child: SizedBox(
               height: MediaQuery.of(context).size.width * 0.14,
               width: MediaQuery.of(context).size.width * 0.9,
-              child: TextButton(
-                style: TextButton.styleFrom(
-                  primary: Colors.orange,
-                  padding: EdgeInsets.symmetric(horizontal: 16.0),
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10)),
-                ),
+              child: FlatButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10)),
+                color: Colors.orange,
+                padding: EdgeInsets.symmetric(horizontal: 16.0),
                 onPressed: () => _showDialog(),
                 child: Text(
                   "Place Order",
