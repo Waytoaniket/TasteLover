@@ -164,7 +164,9 @@ git push -u origin <your_branch_name>
 ### Contact
 
 Maintainer : waytoaniketgupta@gmail.com
+  
 Maintainer : 2018.aditya.kotkar@ves.ac.in
+  
 Maintainer : 2018.shreyas.khadapkar@ves.ac.in
 
 
